@@ -30,4 +30,4 @@ $ npm run start
 ```
 
 ### The original creator of this code is looking for a junior developer role
-Please feel free to contact me on [linkedin](https://www.linkedin.com/in/hannahpark1000/) and learn more about me [here](https://www.hannahmariepark.com/)
+Please feel free to contact her on [linkedin](https://www.linkedin.com/in/hannahpark1000/) and learn more about her [here](https://www.hannahmariepark.com/)
