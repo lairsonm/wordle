@@ -92,9 +92,9 @@ function App() {
         variant="success"
       />
       <div className="flex w-80 mx-auto items-center mb-8">
-        <h1 className="text-xl grow font-bold">Not Wordle</h1>
+        <h1 className="text-xl grow font-bold text-white" >Вордл</h1>
         <InformationCircleIcon
-          className="h-6 w-6 cursor-pointer"
+          className="h-6 w-6 cursor-pointer text-white"
           onClick={() => setIsInfoModalOpen(true)}
         />
       </div>
@@ -131,7 +131,7 @@ function App() {
         className="mx-auto mt-8 flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         onClick={() => setIsAboutModalOpen(true)}
       >
-        About this game
+        Об этой игре
       </button>
     </div>
   )

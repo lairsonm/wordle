@@ -58,13 +58,13 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    How to play
+                    Как играть
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Guess the WORDLE in 6 tries. After each guess, the color
-                      of the tiles will change to show how close your guess was
-                      to the word.
+                      Угадай слово с 6 попыток. После каждого предположения цвет 
+                      плитки будет меняться, чтобы показать, насколько ваше предположение 
+                      было близко к слову.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -75,7 +75,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="Y" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter W is in the word and in the correct spot.
+                      Буква W в слове и на правильном месте.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -86,7 +86,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="T" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter L is in the word but in the wrong spot.
+                      Буква L в слове есть, но не на том месте.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -97,7 +97,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="E" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter U is not in the word in any spot.
+                      Буквы U нет в слове ни в одном месте.
                     </p>
                   </div>
                 </div>
